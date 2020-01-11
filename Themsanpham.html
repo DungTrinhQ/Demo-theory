@@ -1,0 +1,65 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+</head>
+<body>
+<h1 align="center"> THÊM SẢN PHẨM</h1>
+<form name="product_form" method="POST" action="new_product.php">
+
+<table border="1" bgcolor="white" width="50%" align="center">
+
+<tr>
+<td width="30%" align="center">Sản phẩm:</td>
+<td><input type="text" name="sp" value=""></td>
+</tr>
+
+<tr>
+<td width="30%" align="center">Trạng thái:</td>
+<td><input type="radio" name="trangthai" value="new">New <input type="radio" name="trangthai" value="likenew">LikeNew <input type="radio" name="trangthai" value="old">Old</td>
+</td>
+
+<tr>
+<td width="30%" align="center">Xuất xứ:</td>
+<td><select name="xuatxu">
+	<option value="ChauA">Châu Á</option>
+	<option value="ChauAu">Châu Âu</option>
+	<option value="ChauMy">Châu Mỹ</option>
+	<option value="ChauPhi">Châu Phi</option>
+	<option value="ChauUc">Châu Úc</option>
+	<option value="ChauNamcuc">Châu Nam Cực</option> </td>
+<tr>
+<td width="30%" align="center">Ảnh:</td>
+<td><input type="file" name="avatar"></td>
+</td>
+
+<tr>
+<td width="30%" align="center">Link sản phẩm:</td>
+<td><input type="text" name="link" value=""></td>
+</tr>
+
+<tr>
+<td width="30%" align="center">Số lượng:</td>
+<td><input type="number" name="soluong" value=""></td>
+</td>
+
+<tr>
+<td width="30%" align="center">Giá sản phẩm:</td>
+<td><input type="number" name="giatien" value=""></td>
+</td>
+
+<tr>
+<td width="30%" align="center">Mô tả:</td>
+<td><textarea name="description" cols="30" rows="10"></textarea></td>
+</tr>
+
+<tr>
+<td align="center" colspan="2"><input type="submit" vlalue="Gửi">
+<input type="reset" value="Nhập lại"></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

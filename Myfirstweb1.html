@@ -1,0 +1,75 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+</head>
+<body>
+<h1>THEM SINH VIEN</h1>
+<form name="student_form" method="POST" action="new_student.php">
+
+<table border="1" width="50%">
+
+<tr>
+<td>Họ tên:</td>
+<td><input type="text" name="fullname" value="Nguyễn Văn A"></td>
+</tr>
+
+<tr>
+<td> Ngày sinh:</td>
+<td><input type="date" name="DOB" value="1/1/2000"></td>
+</tr>
+
+<tr>
+<td>Giới tính</td>
+<td><input type="radio" name="sex" value="1"> NAM <input checked type="radio" name="sex" value="0"> Nữ</td>
+</tr>
+
+<tr>
+<td width="30%">Quê quán:</td>
+<td><select name="home_town">
+	<option value="HN">Hà Nội</option>
+	<option value="HP">Hải Phòng</option>
+	<option selected value="ND">Nam Định</option>
+	<option value="QN">Quảng Ninh</option></td>
+</tr>
+<tr>
+<td>Sở thích:</td>
+<td><input checked type="checkbox" value="1" name="hobbies[]"> Thể thao
+<input type="checkbox" value="2" name="hobbies[]"> Du lịch
+<input checked type="checkbox" value="4" name="hobbies[]"> Phim ảnh</td>
+</tr>
+
+<tr>
+<td>Ảnh:</td>
+<td><input type="file" name="avatar"></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" name="usename" value=""></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" value=""></td>
+</tr>
+
+<tr>
+<td>ID:</td>
+<td><input type="password" value="1234"' name="ID"></td>
+</tr>
+
+<tr>
+<td>Mô tả:</td>
+<td><textarea name="description" cols="30" rows="10"></textarea><br>
+<input type="submit" vlalue="Gửi">
+<input type="reset" value="Nhập lại"></td>
+</tr>
+
+</form>
+
+</select><br>
+
+</body>
+</html>

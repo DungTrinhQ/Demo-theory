@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY second HTML</title>
+    <script>
+        function thongBao(){
+            alert("Đây là thông báo đầu tiên");
+        }
+
+        function tinhTong() {
+            let x, y, z;
+            x = prompt("Nhập số thứ nhất:");
+            x = parseInt(x);
+            y = prompt("Nhập số thứ hai:");
+            y = parseFloat(y);
+            z = x + y;
+            alert("Tổng là:" + z );
+        }
+
+
+    </script>
+</head>
+<body>
+<input type="button" value="Thông báo" onclick="thongBao()">
+<input type="button" value="Tính tổng" onclick="tinhTong()">
+</body>
+</html>
